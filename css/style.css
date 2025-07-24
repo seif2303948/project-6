@@ -332,44 +332,44 @@ nav .container1 ul li a:focus::after {
 
 
 
-#ourservice{
+#services{
     margin-bottom: 100px;
 }
-#ourservice .adress{
+#services .adress{
     text-align: center;
     margin: 40px;
     
 }
-#ourservice .adress h1{
+#services .adress h1{
     font-size: 40px;
     color: #fff;
 }
-#ourservice .adress h1 span{
+#services .adress h1 span{
     margin: 15px 0px;
 }
-#ourservice .adress .small1,
-#ourservice .adress .small2{
+#services .adress .small1,
+#services .adress .small2{
     width: 100px;
     height: 1px;
     margin: 4px auto;
     background-color: var(--mainClr);
 }
-#ourservice .adress .small1{
+#services .adress .small1{
     margin-top: 25px;
 }
-#ourservice .adress .big{
+#services .adress .big{
     width: 200px;
     height: 1px;
     margin: 0px auto;
     background-color: var(--mainClr);
 }
-#ourservice .container3{
+#services .container3{
     margin: auto;
     display: flex;
     justify-content: center;
     
 }
-#ourservice .container3 div{
+#services .container3 div{
     width: 18%;
     height: 180px;
     margin: 0px 15px;
@@ -381,20 +381,20 @@ nav .container1 ul li a:focus::after {
     transform: translate(0%,0%);
     transition-duration: 0.2s;
 }
-#ourservice .container3 div p{
+#services .container3 div p{
     color: var(--lightClr);
     margin-bottom: 5px;
 }
-#ourservice .container3 div:hover{
+#services .container3 div:hover{
     box-shadow: rgba(255, 48 , 91, 0.4) 0px 5px, rgba(255, 48 , 91, 0.3) 0px 10px, rgba(255, 48 , 91, 0.2) 0px 15px, rgba(255, 48 , 91, 0.1) 0px 20px, rgba(255, 48 , 91, 0.05) 0px 25px;
     transform: translate(0%,-10%);
 }
-#ourservice .container3 div i{
+#services .container3 div i{
     margin-top: 25px;
     font-size: 30px;
     color: var(--mainClr);
 }
-#ourservice .container3 div h3{
+#services .container3 div h3{
     color: #fff;
     margin-top: 10px;
     margin-bottom: 15px;
