@@ -158,7 +158,7 @@ nav .container1 ul li a:focus::after {
 
 #about{
     width: 100%;
-    height: 75vh;
+    margin: 70px 0px;
 }
 #about .container2{
     width: 75%;
@@ -301,9 +301,10 @@ nav .container1 ul li a:focus::after {
 }
 #about .container2 .part2 .card ul{
     margin: 20px;
+    margin-bottom: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr
 }
 #about .container2 .part2 .card ul li{
     margin: 5px 0px;
@@ -327,4 +328,74 @@ nav .container1 ul li a:focus::after {
     background-color: var(--mainClr);
     color: #fff;
     cursor: pointer;
+}
+
+
+
+#ourservice{
+    margin-bottom: 100px;
+}
+#ourservice .adress{
+    text-align: center;
+    margin: 40px;
+    
+}
+#ourservice .adress h1{
+    font-size: 40px;
+    color: #fff;
+}
+#ourservice .adress h1 span{
+    margin: 15px 0px;
+}
+#ourservice .adress .small1,
+#ourservice .adress .small2{
+    width: 100px;
+    height: 1px;
+    margin: 4px auto;
+    background-color: var(--mainClr);
+}
+#ourservice .adress .small1{
+    margin-top: 25px;
+}
+#ourservice .adress .big{
+    width: 200px;
+    height: 1px;
+    margin: 0px auto;
+    background-color: var(--mainClr);
+}
+#ourservice .container3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+#ourservice .container3 div{
+    width: 18%;
+    height: 180px;
+    margin: 0px 15px;
+    text-align: center;
+    border: 2px solid var(--mainClr);
+    border-radius: 10px;
+    
+    position: relative;
+    transform: translate(0%,0%);
+    transition-duration: 0.2s;
+}
+#ourservice .container3 div p{
+    color: var(--lightClr);
+    margin-bottom: 5px;
+}
+#ourservice .container3 div:hover{
+    box-shadow: rgba(255, 48 , 91, 0.4) 0px 5px, rgba(255, 48 , 91, 0.3) 0px 10px, rgba(255, 48 , 91, 0.2) 0px 15px, rgba(255, 48 , 91, 0.1) 0px 20px, rgba(255, 48 , 91, 0.05) 0px 25px;
+    transform: translate(0%,-10%);
+}
+#ourservice .container3 div i{
+    margin-top: 25px;
+    font-size: 30px;
+    color: var(--mainClr);
+}
+#ourservice .container3 div h3{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
